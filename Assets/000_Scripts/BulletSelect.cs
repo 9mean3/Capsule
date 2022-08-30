@@ -5,10 +5,6 @@ using UnityEngine;
 public class BulletSelect : MonoBehaviour
 {
     public int selectedBullet;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {        
