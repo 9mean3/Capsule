@@ -110,6 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3ffc62b5ea11e46a2f398e879232c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackTime: 10
   bullet: {fileID: 10181066611873089, guid: a79fdb51a8afa624a9d5da895ba400ac, type: 3}
   enemyFirePos: {fileID: 645585852851920795}
   attackEff: {fileID: 100004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}

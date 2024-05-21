@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
+    [SerializeField] float attackTime;
     [SerializeField] GameObject bullet;
     [SerializeField] GameObject enemyFirePos;
     // Start is called before the first frame update
@@ -48,7 +49,7 @@ public class EnemyAttack : MonoBehaviour
         while (true)
         {
             Instantiate(bullet, enemyFirePos.transform.position, Quaternion.identity);
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(attackTime);
         }
         
     }
